@@ -12164,6 +12164,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#wrapper-container1 {
-  height: 100vh;
+#content-1 {
+  height: 90%;
+  background-color: #f5df4d;
+}
+
+.row {
+  height: 100%;
+}
+.row .content-1-section {
+  height: 100%;
+}
+.row .content-1-section .content-1-section-div {
+  height: 90%;
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */
