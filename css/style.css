@@ -30,7 +30,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-dorzelLight: #00ffff;
-  --bs-dorzelDark: #B34100;
+  --bs-dorzelDark: #b34100;
   --bs-primary: #f5df4d;
   --bs-secondary: rgb(147, 149, 151);
   --bs-success: #198754;
@@ -3029,8 +3029,8 @@ textarea.form-control-lg {
 
 .btn-dorzelDark {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #B34100;
-  --bs-btn-border-color: #B34100;
+  --bs-btn-bg: #b34100;
+  --bs-btn-border-color: #b34100;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #983700;
   --bs-btn-hover-border-color: #8f3400;
@@ -3040,8 +3040,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #863100;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #B34100;
-  --bs-btn-disabled-border-color: #B34100;
+  --bs-btn-disabled-bg: #b34100;
+  --bs-btn-disabled-border-color: #b34100;
 }
 
 .btn-primary {
@@ -3198,19 +3198,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dorzelDark {
-  --bs-btn-color: #B34100;
-  --bs-btn-border-color: #B34100;
+  --bs-btn-color: #b34100;
+  --bs-btn-border-color: #b34100;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #B34100;
-  --bs-btn-hover-border-color: #B34100;
+  --bs-btn-hover-bg: #b34100;
+  --bs-btn-hover-border-color: #b34100;
   --bs-btn-focus-shadow-rgb: 179, 65, 0;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #B34100;
-  --bs-btn-active-border-color: #B34100;
+  --bs-btn-active-bg: #b34100;
+  --bs-btn-active-border-color: #b34100;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #B34100;
+  --bs-btn-disabled-color: #b34100;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #B34100;
+  --bs-btn-disabled-border-color: #b34100;
   --bs-gradient: none;
 }
 
@@ -12164,18 +12164,28 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#content-1 {
-  height: 90%;
+#content {
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+  height: calc(100vh - 56px);
+  margin-top: 56px;
+}
+#content #content-1 {
   background-color: #f5df4d;
 }
-
-.row {
-  height: 100%;
+#content #content-1 .row {
+  height: 200px;
 }
-.row .content-1-section {
+#content #content-1 .row .content-1-section {
   height: 100%;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.row .content-1-section .content-1-section-div {
+#content #content-1 .row .content-1-section .content-1-section-div {
   height: 90%;
   width: 90%;
+  background-color: black;
 }/*# sourceMappingURL=style.css.map */
