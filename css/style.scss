@@ -17,6 +17,7 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // ISSUE: It displays navbar but dropdown sticks out when small
+// RESOLVED: Add bg-dark to make everything behind it dark
 #wrapper-container {
   #nav {
     height: 80px;
