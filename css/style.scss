@@ -25,7 +25,7 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
   }
   height: 100vh;
   #content-1 {
-    margin: 56px;
+    margin-top: 3em;
     padding-top: 1em;
     img {
       cursor: pointer;
@@ -38,7 +38,7 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
     }
   }
   #content-2 {
-    margin-top: 2em;
+    margin-top: 3em;
     img {
       cursor: pointer;
       transition: all 250ms linear;
@@ -50,6 +50,7 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
     }
   }
 }
+
 .myModal {
   width: 900px;
   height: 600px;
@@ -59,4 +60,8 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
   #myModal10 {
     padding: 1em;
   }
+}
+
+#content-3 {
+  margin-top: 3em;
 }

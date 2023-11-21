@@ -12172,7 +12172,7 @@ textarea.form-control-lg {
   padding-top: 2em;
 }
 #wrapper-container #content-1 {
-  margin: 56px;
+  margin-top: 3em;
   padding-top: 1em;
 }
 #wrapper-container #content-1 img {
@@ -12185,7 +12185,7 @@ textarea.form-control-lg {
   box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
 }
 #wrapper-container #content-2 {
-  margin-top: 2em;
+  margin-top: 3em;
 }
 #wrapper-container #content-2 img {
   cursor: pointer;
@@ -12206,4 +12206,8 @@ textarea.form-control-lg {
 .myModal #myModal20,
 .myModal #myModal10 {
   padding: 1em;
+}
+
+#content-3 {
+  margin-top: 3em;
 }/*# sourceMappingURL=style.css.map */
