@@ -49,6 +49,17 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
       box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
     }
   }
+
+ #content-4 {
+  height: 100vh;
+  background-color: red;
+  padding: 2em;
+  .accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #000;
+  }
+ }
+
 }
 
 .myModal {
